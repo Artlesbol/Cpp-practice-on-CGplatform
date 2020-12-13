@@ -15,12 +15,14 @@ class Student
 {
     public:
         Student(int,int,string);
+        void setnumber(int a){number=a;}
+        void setname(string n){name=n;}
+        void setage(int a){age=a;}
         void print();
     private:
         int number;
         string name;
         int age;
-    protected:
 };
 Student::Student(int n,int a,string N)
 {
