@@ -6,7 +6,7 @@ class Car
     public:
         //  成员函数申明
         Car();
-        Car(int pId,char *pBrand,float pPower,int pNumOfPersons);
+        Car(int pId,const char *pBrand,float pPower,int pNumOfPersons);
         Car(Car&  car);
         ~Car();
         void printCar();
@@ -21,7 +21,7 @@ Car::Car()
 {          
     cout<<"Constructed  without  any  parameter."<<endl;
 }
-Car::Car(int pId,char *pBrand,float pPower,int pNumOfPersons)
+Car::Car(int pId,const char *pBrand,float pPower,int pNumOfPersons)
 {
     brand=new char [strlen(pBrand)+1];
     id=pId;
