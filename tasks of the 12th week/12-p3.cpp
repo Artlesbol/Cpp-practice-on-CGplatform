@@ -5,7 +5,7 @@ class OutPut
 {
     public:
         OutPut(){
-            cout<<"The most distant way in the world\n is not the way from birth to the end"<<endl;
+            cout<<"The most distant way in the world\nis not the way from birth to the end"<<endl;
         }
         ~OutPut()
         {
@@ -18,7 +18,7 @@ int  main()
 {
         //定义一个对象
         OutPut A;
-        cout<<"It  is  when  I  sit  near  you"<<endl;
+        cout<<"It  is  when  I  sit  near  you."<<endl;
         return  0;
 
 }
